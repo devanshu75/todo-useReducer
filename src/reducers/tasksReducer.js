@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 
+
 const taskReducer = (state, action) => {
   switch (action.type) {
     case "addTask":
